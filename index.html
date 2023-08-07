@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class="content"></div> -->
+    <!-- <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title" data-number="100">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text" data-number="50">
+                Some quick example text to build on the card title and make up the bulk of the card's
+                content.
+            </p>
+            <a href="#" id="super_link" class="card-link">Card link</a>
+            <a href="#" class="card-link" data-number="50">Another link</a>
+        </div>
+    </div>
+
+
+    <p class="dropdown">Привет :)</p>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+        </button>
+        <div class="menu dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div> -->
+
+
+    <!-- <p class="super_element">Привет</p>
+
+    <img src="https://placeimg.com/50/50/animals" alt="">
+    <img src="https://placeimg.com/50/50/arch" alt="">
+    <img src="https://placeimg.com/50/50/nature" alt="">
+    <img src="https://placeimg.com/50/50/people" alt="">
+    <img src="https://placeimg.com/50/50/tech" alt="">
+    <img src="https://placeimg.com/50/50/tech/grayscale" alt="">
+    <img src="https://placeimg.com/50/50/tech/sepia" alt="">
+
+    <br>
+
+    <button>Кнопка</button>
+    <button class="super_element">Кнопка с классом btn</button>
+    <button>Кнопка</button>
+
+    <br>
+
+    <textarea></textarea>
+
+    <br>
+
+    <ul>
+        <li>
+            <button>Кнопка 1</button>
+        </li>
+        <li>
+            <button>Кнопка 2</button>
+        </li>
+        <li>
+            <button>Кнопка 3</button>
+        </li>
+        <li>
+            <button>Кнопка 4</button>
+        </li>
+
+    </ul> -->
+
+    <script>
+// 1. Найти по id, используя getElementById, элемент с id равным "super_link" и вывести этот элемент в консоль.
+
+// const supLink = document.getElementById('super_link');
+// console.log(supLink);
+
+// 2. Внутри всех элементов на странице, которые имеют класс "card-link", поменяйте текст внутри элемента на "ссылка".
+
+// const cardLink = document.querySelectorAll('.card-link');
+// cardLink.forEach(text => {
+//     text.innerHTML = 'Ссылка'
+// })
+// console.log(cardLink);
+
+// 3. Найти все элементы на странице с классом "card-link", которые лежат в элементе с классом "card-body" и вывести полученную коллекцию в консоль.
+
+// const allCrLink = document.querySelectorAll('.card-body .card-link');
+// console.log(allCrLink);
+
+// 4. Найти первый попавшийся элемент на странице у которого есть атрибут data-number со значением 50 и вывести его в консоль.
+
+// const firstDatNum = document.querySelector('[data-number="50"]');
+// console.log(firstDatNum);
+
+// 5. Выведите содержимое тега title в консоль.
+
+// const title = document.querySelector('title');
+// console.log(title.InnerHTML);
+
+// 6. Получите элемент с классом "card-title" и выведите его родительский узел в консоль.
+
+// const elCrTit = document.querySelector('.card-title');
+// console.log(elCrTit.parentNode);
+
+// 7. Создайте тег p`, запишите внутри него текст "Привет" и добавьте созданный тег в начало элемента, который имеет класс "card".
+
+// const dCard = document.querySelector('.card')
+// const newP = document.createElement('p');
+// newP.textContent = 'Привет';
+// dCard.prepend(newP);
+
+// 8. Удалите тег h6 на странице.
+
+// const del = document.querySelector('h6');
+// del.remove()
+
+// 9. Ко всем элементам, имеющим класс "dropdown-item" добавить еще один класс "super-dropdown", необходимо использовать методы forEach и querySelectorAll и свойство classList у элементов.
+// []()
+
+// const clBtn = document.querySelector('.btn-secondary');
+// if (clBtn.classList.contains('btn-secondary')) {
+//     clBtn.classList.remove('btn-secondary')
+
+// } else {
+//     clBtn.classList.add('btn-secondary')
+// }
+// console.log(clBtn);
+
+// const clDropItem = document.querySelectorAll('.dropdown-item');
+// clDropItem.forEach((value) => {
+//     value.classList = 'dropdown-item super-dropdown';
+// })
+// console.log(clDropItem);
+
+
+// 10. У элемента с классом btn необходимо убрать класс "btn-secondary", если он присутствует у этого элемента, либо добавить, если такого класса у элемента не было.
+// []()
+
+
+// 11. Необходимо удалить класс "dropdown-menu" у элемента, у которого присутствует класс "menu".
+// []()
+
+// const delClassDrop = document.querySelector('.dropdown-menu');
+// delClassDrop.classList.remove('dropdown-menu');
+// console.log(delClassDrop);
+
+
+// 12. Используя метод insertAdjacentHTML добавьте после div'a с классом "dropdown" следующую разметку:
+// `<a href="#">link</a>`
+// []()
+
+// const divDrop = document.querySelector('div.dropdown');
+// divDrop.insertAdjacentHTML('afterend', '<a href="#">link</a>');
+// console.log(divDrop);
+
+// 13. У элемента с id "dropdownMenuButton" замените id на "superDropdown".
+// []()
+
+// const iDropMenuBtn = document.querySelector('#dropdownMenuButton');
+// function muFun () {
+//     iDropMenuBtn.removeAttribute('id');
+//     iDropMenuBtn.setAttribute('id', 'superDropdown');
+// }
+// console.log(iDropMenuBtn);
+// muFun()
+
+// 14. Добавьте атрибут data-dd со значением 3 элементу у которого существует атрибут "aria-labelledby" равный "dropdownMenuButton" используя dataset.
+// []()
+
+// const datDd = document.querySelector('[aria-labelledby = dropdownMenuButton]');
+// datDd.dataset.dd = 3;
+// console.log(datDd);
+
+// 15. Удалите атрибут type у элемента с классом "dropdown-toggle".
+
+// const clDropTog = document.querySelector('.dropdown-toggle');
+// clDropTog.removeAttribute('type');
+// console.log(clDropTog);
+
+// 16. Необходимо вывести сообщение в консоль "все теги прогрузились", когда все теги будут созданы браузером.
+
+// window.addEventListener('DOMContentLoaded', function () {
+//     console.log('все теги прогрузились');
+// })
+
+
+// 17. Необходимо вывести сообщение в консоль "страница загрузилась", когда все ресурсы страницы будут загружены.
+
+// window.addEventListener('load', function () {
+//     console.log('страница загрузилась');
+// })
+
+// 18. При клике на какой-либо тег на странице в консоль должно выводиться сообщение наподобие:
+// - Класс "super_element" присутствует в элементе "div".
+// - сообщение должно определять присутствует или отсутствует класс "super_element"
+// - у элемента, а также выводить в нижнем регистре верный тег в данной строке, по
+// - которому был совершен клик.
+// - Необходимо использовать делегирование.
+
+
+// document.addEventListener('click', function (event) {
+//     if (event.target.className == 'super_element') {
+//         console.log(`Класс 'super_element' присутствует в элементе ${event.target.tagName.toLowerCase()}`);
+//     } else {
+//         console.log(`Класс 'super_element' отсутствует в элементе ${event.target.tagName.toLowerCase()}`);
+//     }
+// })
+
+
+// 19. Сделайте, чтобы при наведении на textarea в консоли появлялось сообщение: "Вы навели на textarea."
+
+
+// const textareaEl = document.querySelector('textarea');
+// textareaEl.addEventListener('mouseover', function (){
+//     console.log('Вы навели на texarea');
+// });
+
+// document.querySelector('textarea').addEventListener('mouseover', textareaBtn);
+
+// function textareaBtn () {
+//     console.log('Вы навели на texarea');
+// }
+
+
+// 20. Необходимо повесить событие клика на тег ul. В обработчике события в консоль необходимо выводить текст, который записан внутри элемента кнопки, по которой был произведен клик. Если клик был не по кнопке, то ничего выводить не нужно. Необходимо использовать делегирование.
+
+
+// const ulElem = document.querySelector('ul');
+// const btnEl = ulElem.querySelectorAll('button');
+// btnEl.forEach (el => el.addEventListener('click', function() {
+//     console.log(this.innerText);
+// }));
+
+
+// 21. Вопрос: Почему в console.log пишется сначала текст из 5 задания и только потом выводится текст из 3 задания, если мы кликаем по кнопкам в ul? Ответ необходимо написать здесь же, под этим комментарием, своими словами.
+
+// Может быть потому что в 5м задании мы производим действие с определенным элементом в данном случае 'ul' и 'button' по этому код выполняется быстрее чем в задании 3 , так как там приходится пробегать через всю страницу. БОльше вариантов никаких) 
+
+// 22. С помощью JS необходимо изменить цвет заднего фона каждого второго тега li.
+
+// const backgroundColorLi = document.querySelectorAll('li:nth-child(even)');
+// backgroundColorLi.forEach(el => el.style.backgroundColor = 'red')
+
+// 23. При изменении значения в input с id="from", значение содержащееся в нем должно моментально отображаться в span. То есть при печати в input'е тег span также должен меняться.
+
+// const inputEl = document.querySelector('#from');
+// const spanEl = document.querySelector('span');
+
+// inputEl.addEventListener('input', function () {
+//     spanEl.innerText = inputEl.value;
+// })
+
+
+// 24. При клике на кнопку с классом messageBtn необходимо элементу с классом message:
+// - добавить два класса: animate_animated и animate_fadeInLeftBig
+// - поставить данному элементу стиль visibility в значение 'visible'.
+
+// const butEl = document.querySelector('.messageBtn');
+// const divEl = document.querySelector('.message');
+
+// butEl.addEventListener('click', function() {
+//     divEl.classList.add('animate_animated', 'animate_fadeInLeftBi');
+//     divEl.style.visibility = 'visible';
+// })
+
+
+// 25. Необходимо при отправке формы проверить, заполнены ли все поля в этой форме. Если какое-либо поле не заполнено, форма не должна отправляться, также должны быть подсвечены незаполненные поля (необходимо поставить класс error незаполненным полям). Как только пользователь начинает заполнять какое-либо поле, необходимо, при вводе в данное поле, произвести проверку:
+// - Если поле пустое, необходимо данное поле подсветить (поставить класс error данному полю).
+// - Если поле было чем-либо заполнено, подсветку (класс error) необходимо убрать.
+
+// const formEl = document.querySelector('form');
+// const inputEl = formEl.querySelector('input')
+// const selectEl = formEl.querySelector('select')
+
+
+// formEl.addEventListener('submit', function (event) {
+//     event.preventDefault();
+
+//     if (inputEl.value.trim() === "" || selectEl.value.trim() === "") {
+//         inputEl.classList.add('error');
+//         inputEl.style.borderColor = "red";
+//         selectEl.classList.add('error');
+//         selectEl.style.borderColor = "red";
+//         selectEl.style.borderWidth = '2px';
+
+//     } else {
+//         inputEl.classList.remove('error');
+//         selectEl.classList.remove('error');
+
+//     }
+//     setTimeout(() => {
+//         selectEl.removeAttribute('style');
+//         inputEl.removeAttribute('style')
+//     }, 1000);
+// })
+
+
+
+
+    </script>
+
+    <script src="index.js"> </script>
+</body>
+
+</html>
